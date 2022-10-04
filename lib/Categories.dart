@@ -18,7 +18,8 @@ class _categoriesState extends State<categories> {
         children: [
           SizedBox(
             height: 10,
-          ),InkWell(
+          ),
+          InkWell(
             onTap: () {
               Navigator.push(
                   context,
@@ -52,15 +53,19 @@ class _categoriesState extends State<categories> {
               ),
             ),
           ),
-          SizedBox(height: 20,),
-          Row( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          SizedBox(
+            height: 20,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
                 height: 170,
                 width: 150,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Colors.greenAccent[100],border: Border.all(color: Colors.green)),
+                    color: Colors.greenAccent[100],
+                    border: Border.all(color: Colors.green)),
                 child: Column(
                   children: [
                     Container(
@@ -71,7 +76,8 @@ class _categoriesState extends State<categories> {
                     Text(
                       'Fresh Fruit &',
                       style: TextStyle(fontWeight: FontWeight.bold),
-                    ), Text(
+                    ),
+                    Text(
                       'Vegetables',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     )
@@ -83,7 +89,8 @@ class _categoriesState extends State<categories> {
                 width: 150,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Colors.pinkAccent[100],border: Border.all(color: Colors.green)),
+                    color: Colors.pinkAccent[100],
+                    border: Border.all(color: Colors.green)),
                 child: Column(
                   children: [
                     Container(
@@ -91,7 +98,9 @@ class _categoriesState extends State<categories> {
                       width: 120,
                       child: Image.asset('assets/oil.png'),
                     ),
-                    SizedBox(height: 5,),
+                    SizedBox(
+                      height: 5,
+                    ),
                     Text(
                       'Coocking Oil',
                       style: TextStyle(fontWeight: FontWeight.bold),
@@ -100,15 +109,20 @@ class _categoriesState extends State<categories> {
                 ),
               ),
             ],
-          ), SizedBox(height: 20,),
-          Row( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
                 height: 170,
                 width: 150,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Colors.pinkAccent[100],border: Border.all(color: Colors.green)),
+                    color: Colors.pinkAccent[100],
+                    border: Border.all(color: Colors.green)),
                 child: Column(
                   children: [
                     Container(
@@ -128,7 +142,8 @@ class _categoriesState extends State<categories> {
                 width: 150,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Colors.greenAccent[100],border: Border.all(color: Colors.green)),
+                    color: Colors.greenAccent[100],
+                    border: Border.all(color: Colors.green)),
                 child: Column(
                   children: [
                     Container(
@@ -136,7 +151,9 @@ class _categoriesState extends State<categories> {
                       width: 120,
                       child: Image.asset('assets/bakery.png'),
                     ),
-                    SizedBox(height: 5,),
+                    SizedBox(
+                      height: 5,
+                    ),
                     Text(
                       'Bakery & Snacks',
                       style: TextStyle(fontWeight: FontWeight.bold),
@@ -145,15 +162,20 @@ class _categoriesState extends State<categories> {
                 ),
               ),
             ],
-          ), SizedBox(height: 20,),
-          Row( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Container(
                 height: 170,
                 width: 150,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    color: Colors.greenAccent[100],border: Border.all(color: Colors.green)),
+                    color: Colors.greenAccent[100],
+                    border: Border.all(color: Colors.green)),
                 child: Column(
                   children: [
                     Container(
@@ -168,15 +190,21 @@ class _categoriesState extends State<categories> {
                   ],
                 ),
               ),
-              InkWell(onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) => beverages(),));
-              },
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => beverages(),
+                      ));
+                },
                 child: Container(
                   height: 170,
                   width: 150,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
-                      color: Colors.pinkAccent[100],border: Border.all(color: Colors.green)),
+                      color: Colors.pinkAccent[100],
+                      border: Border.all(color: Colors.green)),
                   child: Column(
                     children: [
                       Container(
@@ -184,7 +212,9 @@ class _categoriesState extends State<categories> {
                         width: 120,
                         child: Image.asset('assets/beverages.png'),
                       ),
-                      SizedBox(height: 5,),
+                      SizedBox(
+                        height: 5,
+                      ),
                       Text(
                         'Beverages',
                         style: TextStyle(fontWeight: FontWeight.bold),
